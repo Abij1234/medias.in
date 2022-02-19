@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url(img/brickback.webp);
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: none;
+  letter-spacing: 50px;
+  margin-left: 60px;
+}
+
+.github{
+  position: relative;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 0 0 30px #0f0;
+               0 0 100px #0f0,
+               0 0 150px #0f0,
+               0 0 200px #0f0,
+               0 0 250px #0f0;
+animation: animate 6s linear infinite;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.instagra{
+  position: relative;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 0 0 30px #0f0;
+               0 0 100px #0f0,
+               0 0 150px #0f0,
+               0 0 200px #0f0,
+               0 0 250px #0f0;
+animation: animate 6s linear infinite;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.yout{
+  position: relative;
+  color: #fff;
+  font-size: 5em;
+  text-shadow: 0 0 30px #0f0;
+               0 0 100px #0f0,
+               0 0 150px #0f0,
+               0 0 200px #0f0,
+               0 0 250px #0f0;
+animation: animate 6s linear infinite;
+}
+
+@keyframes animation
+{
+  0%
+  {
+    filter: hue-rotate(0deg);
+  }
+  100%
+  {
+    filter: hue-rotate(360deg);
+  }
+}
